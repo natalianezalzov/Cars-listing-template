@@ -1,0 +1,22 @@
+body {
+  background: url(https://www.evwind.es/wp-content/uploads/2012/08/AvtoVAZ-672x372.jpg) no-repeat fixed left;
+  background-size: cover;
+}
+
+h1 {
+  color: rgb(252, 252, 249);
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.card img {
+  filter: grayscale(70%);
+  transform: scale(0.9);
+  transition: 0.3s ease-out;
+  transition-property: filter, transform;
+}
+
+.card:hover img {
+  filter: grayscale(0%);
+  transform: scale(1);
+}
